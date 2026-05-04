@@ -1,8 +1,10 @@
-class InvalidTaskError(Exception):
+class InvalidDataError(Exception):
     pass
 
-class TaskNotFoundError(Exception):
+
+class StudentNotFoundError(Exception):
     pass
 
-class FileOperationError(Exception):
+
+class DataPersistenceError(Exception):
     pass
